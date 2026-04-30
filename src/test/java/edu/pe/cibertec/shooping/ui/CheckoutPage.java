@@ -3,7 +3,7 @@ package edu.pe.cibertec.shooping.ui;
 import io.appium.java_client.AppiumBy;
 import net.serenitybdd.screenplay.targets.Target;
 
-public class CheckoutPage {  // ← antes era CheckoutScreen
+public class CheckoutPage {
 
     public static final Target CHECKOUT_TITLE =
             Target.the("título checkout")
@@ -29,3 +29,4 @@ public class CheckoutPage {  // ← antes era CheckoutScreen
                                     + "or contains(@text,'obligatorio') "
                                     + "or contains(@text,'campo')]"));
 }
+
